@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 })
 client.on("message" , async message => {
-    let prefix = '='
+ 
     if(message.content.startsWith(prefix + "فيلم")) {
         if(!message.channel.guild) return message.reply('');
          let user = message.author
